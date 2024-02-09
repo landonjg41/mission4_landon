@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Pricing Calculator";
+}
+<h1>@ViewData["Title"]</h1>
+
+
+<form id="calculatorForm">
+    <div>
+        <label for="hours">Number of Hours:</label>
+        <input type="number" id="hours" name="hours" min="1" required>
+    </div>
+    <div>
+        <label for="rate">Hourly Rate:</label>
+        <input type="text" id="rate" name="rate" value="50" readonly>
+    </div>
+    <div>
+        <button type="button" id="calculate">Calculate Total</button>
+    </div>
+    <div>
+        <label for="total">Total Cost:</label>
+        <input type="text" id="total" name="total" readonly>
+    </div>
+    <a href="/">Back to Home</a>
+</form>
+
+<script src="~/js/calculator.js"></script>

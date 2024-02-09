@@ -1,0 +1,77 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: Arial, sans-serif; /* Adding a more readable font */
+}
+
+#calculatorForm {
+    background-color: #f8f9fa; /* Light grey background */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 400px; /* Limiting form width */
+    margin: 20px auto; /* Centering the form */
+}
+
+    #calculatorForm div {
+        margin-bottom: 15px; /* Spacing between form elements */
+    }
+
+    #calculatorForm label {
+        display: block; /* Labels above inputs */
+        margin-bottom: 5px; /* Space between label and input */
+        font-weight: bold; /* Making labels stand out */
+    }
+
+    #calculatorForm input[type="number"],
+    #calculatorForm input[type="text"] {
+        width: 100%; /* Full width inputs */
+        padding: 8px;
+        border: 1px solid #ced4da; /* Subtle border */
+        border-radius: 4px; /* Rounded corners */
+        box-sizing: border-box; /* Border included in width */
+    }
+
+#calculate {
+    background-color: #258cfb; /* Button color */
+    color: white; /* Text color */
+    padding: 10px 15px; /* Padding inside the button */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Mouse pointer changes on hover */
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+    #calculate:hover {
+        background-color: #106ba3; /* Darker shade on hover */
+    }
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb; /* Focus styles */
+}
+
